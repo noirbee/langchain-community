@@ -64,6 +64,7 @@ def test_test_group_dependencies(uv_conf: Mapping[str, Any]) -> None:
             "freezegun",
             "langchain-tests",
             "lark",
+            "mypy-extensions",
             "pandas",
             "pytest",
             "pytest-asyncio",
