@@ -52,6 +52,7 @@ test = [
     "cffi; python_version >= \"3.10\"",
     "langchain-tests",
     "toml>=0.10.2,<1.0.0",
+    "mypy-extensions>=1",
 ]
 test_integration = ["pytest-vcr>=1.0.2,<2.0.0", "vcrpy>=6.0.0,<7.0.0"]
 lint = [
